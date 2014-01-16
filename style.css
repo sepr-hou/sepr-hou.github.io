@@ -1,0 +1,19 @@
+h1 {
+	font-size: 30;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+ul {
+	width:400px;
+	height:100px;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	padding-right: 20px;
+}
