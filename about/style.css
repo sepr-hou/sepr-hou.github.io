@@ -1,0 +1,22 @@
+h1 {
+        font-size: 30;
+        font-family: Verdana, Geneva, sans-serif;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto
+}
+
+ul {
+        width:400px;
+        height:100px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style-type: none;
+        font-family: Verdana, Geneva, sans-serif;
+}
+
+li {
+        display: inline;
+        padding-right: 20px;
+        font-family: Verdana, Geneva, sans-serif;
+}
