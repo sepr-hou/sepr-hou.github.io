@@ -1,3 +1,230 @@
-<html>
-	
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Controller Concern</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Add custom CSS here -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Top</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#about">About</a>
+                    </li>
+                    <li><a href="#features">Features</a>
+                    </li>
+                    <li><a href="#documentation">Documentation</a>
+                    </li>
+                    <li><a href="#adoption">Adoption</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="intro-header">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Controller Concern</h1>
+                        <h3>The saga continues</h3>
+                        <h5>Now with 2 exit buttons!!</h5>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li><a href="https://github.com/sepr-hou/atc-game/releases/download/v1.0.1/airspace-frenzy-6.jar" class="btn btn-default btn-lg"><span class="network-name">Download</span></a>
+                            </li>
+                            <li><a href="https://github.com/sepr-hou/atc-game/archive/v1.0.1.zip" class="btn btn-default btn-lg"><span class="network-name">Download (Source)</span></a>
+                            </li>
+                            <li><a href="https://github.com/sepr-hou/ini-hou" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <div class="content-section-a" id="about">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">About</h2>
+                    <p class="lead">Airspace Frenzy 6 is an epic ATCO game programmed in Java using the Maven build system and a libGDX game development framework.</p>
+                    </br>
+                    <p class="lead"><em>"There's no reason to become alarmed, and we hope you'll enjoy the rest of your flight. By the way, is there anyone on board who knows how to fly a plane?"</em></p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/ipad.png" title="Game title on background">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b" id="features">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Features</h2>
+                    <p class="lead">- Realistic flight plan generation and separation rules <br>- Fun Graphics <br>- Intuitive UI<br>- Real-time information <br>- Simple controls</p>
+                    <p class="lead"><em>"Wait so you're telling us that this game does all that and it's incredibly easy to develop new features? Surely you can't be serious"</em></p>
+                    <p class="lead"><em>We are serious, and stop calling us Shirley</em></p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/features.png" title="Examples of flightpaths, waypoints, aircraft and collisions">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a" id="documentation">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Documentation</h2>
+                    <p class="lead">We have provided a link to the JavaDocs associated with our source code  <a href="apidocs">here.</a> This can be used to understand the project code and should aid in extending the project.</p>
+                    <p class="lead">Also provided is a link to the game's user manual. This can be accessed  <a href="Manual2.pdf">here.</a> </p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/documentation.jpeg" title="Pile of paper">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+    
+    <div class="content-section-b" id="adoption">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Adopt our project</h2>
+                    <p class="lead">- The Maven build system allows the project to be built in different editors, it automatically downloads libraries and runs the game's unit tests. <br>- The libGDX framework is specifically designed for game development and contains many useful classes and methods. <br>- GUI and logic code seperation means the code is easy to understand and more flexible. <br><br><em>"This game is so realistic, I felt like I actually was the plane!!" - Next Door's Dog (pictured)</em>.</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/doge.png" title="Such doge, much fun, wow">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    
+                </div>
+                
+                <div class="col-lg-6">
+                    <h2 style="text-align:right">Meticulously designed by competent coders with the <a href="http://www.hiyoooo.com/">Wright altitude</a></h2>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li><a href="#">Top</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#features">Features</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#documentation">Documentation</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li><a href="#adoption">Adoption</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Team HOU 2014. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
 </html>
